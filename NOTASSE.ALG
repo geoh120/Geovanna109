@@ -1,7 +1,7 @@
 Algoritmo "notasse"
 
 Var
-n1,n2,n3,n4,med:real
+n1,n2,n3,n4,n5 med:real
 
 Inicio
 
@@ -13,10 +13,11 @@ escreval("Digite nota 3")
 leia(n3)
 escreval("Digite nota 4")
 leia(n4)
+escreval("digite nota 5")
 
-med:=(n1+n2+n3+n4)/4
+med:=(n1+n2+n3+n4+n5)/4
 
-escreval("A media final do aluno é ",med)
+escreval("A media final do aluno Ã© ",med)
 se (med<6) entao
    escreval("Aluno reprovado")
 fimse
