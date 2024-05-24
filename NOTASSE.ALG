@@ -26,7 +26,7 @@ se (med>=7) entao
    escreval("Aluno aprovado")
 fimse
 se (med>=3e<7) entao
-   escreval("alunno de recuperação)
+   escreval("aluno de recuperação")
 
 
 
