@@ -18,14 +18,15 @@ escreval("digite nota 5")
 med:=(n1+n2+n3+n4+n5)/4
 
 escreval("A media final do aluno é ",med)
-se (med<6) entao
+se (med<3) entao
    escreval("Aluno reprovado")
 fimse
 
-se (med>=6) entao
+se (med>=7) entao
    escreval("Aluno aprovado")
 fimse
-
+se (med>=3e<7) entao
+   escreval("alunno de recuperação)
 
 
 
